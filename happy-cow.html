@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Happy Cow</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
+  <header>
+    <a href="https://happycowburger.com"><h2>WELCOME TO HAPPY COW BURGER</h2></a>
+    <nav>
+      <li>
+        <a href="#menu"><i class="fas fa-book-open"></i> Menu</a>
+      </li> 
+      <li>
+        <a href="tel:+1-541-510-0015"><i class="fas fa-mobile-alt"></i> Call</a>
+      </li>
+      <li>
+        <a href="#location"><i class="fas fa-map-marked-alt"></i> Location</a>
+      </li>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <div class="background-image" id="slider" style="background-image: #000">
+      <div class="slider_item">
+        <img src="img/1.jpg">
+      </div>
+      <div class="slider_item">
+        <img src="img/2.jpg">
+      </div>
+      <div class="slider_item">
+        <img src="img/3.jpg">
+      </div>
+      <div class="slider_item">
+        <img src="img/4.jpg">
+      </div>
+      <div class="slider_item">
+        <img src="img/5.jpg">
+      </div>
+      <div class="slider_item">
+        <img src="img/6.jpg">
+      </div>
+    </div>
+
+    <div class="hero-content-area">
+      <img src="./img/logored.png">
+    </div>
+
+  </section>
+
+  <section class="pics">
+
+    <div class="slides">
+      <img class="mySlides" src="./img/spread.png" >
+      <img class="mySlides" src="./img/cow.png" >
+      <img class="mySlides" src="./img/horse.png" >
+      <img class="mySlides" src="./img/pig.png" >
+      <img class="mySlides" src="./img/sheep.png" >
+    </div>
+
+    <div>
+      <h3 class="title">About US</h3>
+      <hr>
+    <p>"Located in South Eugene area, we use local, free-range grass-fed beef, for breakfast and burgers! We have milkshakes, local organic coconut bliss (vegan) as well!"</p>
+    </div>
+  
+  </section>
+
+ <section id="menu">
+
+  <div class="fullmenu">
+    <img alt="menu" src="./img/menu.png">
+  </div>
+
+</section>
+
+
+
+<section id="gallery">
+
+
+  <div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides1">
+    
+      <img src="./img/1.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/4.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    
+      <img src="./img/6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    
+      <img src="./img/9.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    
+      <img src="./img/9.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./img/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Happy Cow Burger">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Basic Locomoco">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bacon Locomoco">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="?1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Milkshake Made With Organic Whole Milk">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="?2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Grilled Salmon Hash">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Kimchee Bacon Locomoco">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Organic Fried Tofu Hash With Kimchee">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/9.jpg" style="width:100%" onclick="currentSlide(10)" alt="Organic Fried Tofu Hash With Kimchee">
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+
+
+  <div class='backg'>
+
+  <div class=testimonials>
+
+    <div>
+      <p class="ileft"><i class="fas fa-quote-left"></i></p>
+      <p>Got BBQ Pork Loco Moco with a beef patty, along with a Tilamook Dark Cherry Milkshake made with Organic Milk. So good can wait to try more!!</p>
+      <p class="iright"><i class="fas fa-quote-right"></i></p>
+    </div>
+
+    <div>
+      <p class="ileft"><i class="fas fa-quote-left"></i></p>
+      <p>I am so full and happy right now. Happy Cow Burger opened up across the street from me. I had one of the hashes the other night, and it was really really good, although the bacon wasnt crispy enough for my taste. Tonight, after a really hard, hot work day, I walked over and ordered the Bulogi burger with crispy bacon and sweet potato fries. Oh my gosh!! It was so so so good. Best burger I've had in awhile. I'm stoked that they are right here, and I will be visiting often!</p>
+      <p class="iright"><i class="fas fa-quote-right"></i></p>
+    </div>
+
+    <div>
+      <p class="ileft"><i class="fas fa-quote-left"></i></p>
+      <p>Bulgogi burger was A+ so was the vegan milkshake!</p>
+      <p class="iright"><i class="fas fa-quote-right"></i></p>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+  <section id="location">
+   <h1>Location</h1>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7315.294354122365!2d-123.08775760578595!3d44.033809844540706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdcf892970d741e4b!2sHappy%20Cow%20Burger!5e0!3m2!1sen!2sus!4v1594672623873!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </section>
+
+  <footer>
+
+    <hr>
+
+    <div class="footergrid">
+
+      <div class="center">
+        <img src="./img/spread.png">
+      </div>
+
+      <div class="toleft">
+         <ul>
+             <li> <a href="#">HOME</a> </li>
+             <li> <a href="#menu">MENU</a> </li>
+             <li> <a href="#gallery">GALLERY</a> </li>
+             <li> <a href="#location">LOCATION</a> </li>
+             <li> <a href="https://www.facebook.com/happycowburgereugene" target="_black">
+                  <i class="fab fa-facebook"></i> Facebook</a> </li>
+         </ul>
+       </div>
+
+       <div>
+        <ul>
+         <li><strong>OPEN HOURS</strong></li>
+         <li>Monday - Sunday: 7am-9pm</li>
+         <li><strong>CONTACT</strong></li>
+         <li>Phone: <a href="tel:+1-541-510-0015">541-510-0015</a></li>
+         <li>Address: <a href="https://www.google.com/maps/place/Happy+Cow+Burger/@44.0329918,-123.0815478,15z/data=!4m5!3m4!1s0x0:0xdcf892970d741e4b!8m2!3d44.0329918!4d-123.0815478" target="_blank"> 2435 Hilyard St Suite A, Eugene, OR 97405</a></li>
+      </ul>
+      </div>
+
+    </div>
+      
+      <hr>
+
+      <div>
+        <p>ⓒ 2020 Happy Cow Burger. All rights reserved.</p>
+      </div>
+
+  </footer>
+
+
+<script type="text/javascript">
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<script>
+     const showing_class = "showing";
+        //엘리먼트 선택
+        const firstslide = document.querySelector(".slider_item:first-child");
+        //firstslide.classList.add(showing_class);
+
+        //순차적으로 showing 클래스를 추가해 주는 함수
+        function slide() {
+            const currentSlide = document.querySelector(`.${showing_class}`);
+            if(currentSlide){
+                currentSlide.classList.remove(showing_class);
+                const nextSlide = currentSlide.nextElementSibling;
+                if(nextSlide){
+                    nextSlide.classList.add(showing_class);
+                } else {//넥스트가 없으면 처음으로 돌아 감
+                    firstslide.classList.add(showing_class);
+                }
+                
+            } else {
+                firstslide.classList.add(showing_class);
+            }
+        }
+
+        slide();
+        setInterval(slide, 2000)
+   </script>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+     var i;
+     var x = document.getElementsByClassName("mySlides");
+       for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+       }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}    
+     x[myIndex-1].style.display = "block";  
+     setTimeout(carousel, 2000); // Change image every 2 seconds
+     }
+   </script>
+
+</body>
+</html>
