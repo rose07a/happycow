@@ -50,7 +50,7 @@ section {
 hr {
 	width: 250px;
 	height: 3px;
-	background-color: #ff1a1a;
+	background-color:#ffd95e;
 	border: 0;
 	margin-bottom: 50px;
 }
@@ -587,13 +587,12 @@ img {
 
 
 .pics{
- background-color:#f5f5f5;
+ background-image:url("./img/grass.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ color:#000;
+ font-weight: 700;
 }
-
-.pics div{
-	margin:20px;
-}
-
 
 .slides{
 	display: flex;
