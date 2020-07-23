@@ -614,6 +614,7 @@ img {
 }
 
 @media (max-width: 800px) {
+
 	.slides{
 		width:100%;
 		height:250px;
