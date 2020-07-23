@@ -600,7 +600,7 @@ img {
 	width:100%;
 }
 
-.pics p{
+.pics p, .pics h3{
 	color:#000;
 	text-shadow: 1px 1px #ffd95e;
 }
