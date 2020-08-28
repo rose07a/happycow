@@ -592,6 +592,11 @@ img {
  background-size: cover;
  color:#000;
  font-weight: 700;
+ text-align: center;
+}
+
+.pics img{
+	width: 60%;
 }
 
 .slides{
@@ -624,6 +629,10 @@ img {
 	.slides img{
 		height: 250px;
 		margin-bottom:30px;
+	}
+
+	.pics img{
+		width:100%;
 	}
 }
 
