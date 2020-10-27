@@ -162,6 +162,7 @@ header img{
 .hero a.btn {
 	margin: 10px;
 	padding: 20px 46px;
+	background-color: #FFD95E;
 }
 
 .hero-content-area {
@@ -172,6 +173,7 @@ header img{
 
 .hero-content-area img{
 	width:300px;
+	margin-bottom: 30px;
 }
 
 
