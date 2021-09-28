@@ -135,7 +135,7 @@ header img{
 	display:flex;
 	justify-content: center;
 	text-align: center;
-	min-height: 90vh;
+	min-height: 80vh;
 	color: #000;
 }
 
@@ -186,7 +186,7 @@ header img{
 
 @media (max-width: 800px) {
 	.hero {
-		min-height: 570px;
+		min-height: 490px;
 	}
 
 	.hero h1 {
@@ -638,5 +638,18 @@ img {
 	}
 }
 
+#update{
+	background:#000;
+	color:#FFD95E;
+	font-size: 18px;
+	font-weight: 800;
+	padding:20px 10px;
+	text-align:center;
+}
 
-
+@media (max-width: 800px) {
+	#update{
+		padding: 20px 5px;
+		font-size:16px;
+	}
+}
